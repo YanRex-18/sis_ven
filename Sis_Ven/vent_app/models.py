@@ -2,6 +2,10 @@ from django.db import models
 from .choices import CATEGORIAS
 from decimal import Decimal
 from django.core.validators import MinValueValidator, MaxValueValidator, MaxLengthValidator, MinLengthValidator
+<<<<<<< Updated upstream
+=======
+from .validadores import validacion_numeros, Validacion_letras, validacion_especial,validacion_especial2,validacion_especial3
+>>>>>>> Stashed changes
 
 # Create your models here.
 class Clientes(models.Model):
